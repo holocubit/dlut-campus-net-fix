@@ -1,0 +1,6 @@
+# .bat 必须是 CRLF（cmd 解析依赖换行符），禁止 git 做换行/编码转换。
+# 注意：脚本本身是 GBK(cp936) 编码，不要改成 UTF-8。
+*.bat -text
+*.cmd -text
+*.docx binary
+*.doc binary
