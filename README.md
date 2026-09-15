@@ -16,6 +16,7 @@
 ## 目录
 
 - [快速开始](#快速开始)
+- [下载](#下载)
 - [能修什么 / 不能修什么](#能修什么--不能修什么)
 - [它到底改了什么](#它到底改了什么)
 - [输出怎么读](#输出怎么读)
@@ -64,6 +65,20 @@ DLUT校园网一键修复_先阅读使用说明.bat -fix -y    :: 修复且不�
 | `-y` | 跳过交互确认（包含结束时「是否切回原网络」） |
 | `-panjin` / `-lingshui` | 手动指定校区常量（默认会扫描无线范围自动判断） |
 | `-nopause` | 结束后不停留，直接退出 |
+
+---
+
+## 下载
+
+| 方式 | 说明 |
+|---|---|
+| 仓库页面 | 点进 `DLUT校园网一键修复_先阅读使用说明.bat` → 右上角 **Download raw file** |
+| 打包下载 | [main.zip](https://codeload.github.com/holocubit/dlut-campus-net-fix/zip/refs/heads/main)（`codeload.github.com` 通常比网页更稳） |
+| 克隆 | `git clone https://github.com/holocubit/dlut-campus-net-fix.git` |
+
+> **国内网络提示**：`github.com` 网页与 `raw.githubusercontent.com` 有时会被重置连接（打不开、下载中断）。如果遇到，可在链接前加镜像前缀，例如：
+> `https://ghproxy.net/https://raw.githubusercontent.com/holocubit/dlut-campus-net-fix/main/DLUT校园网一键修复_先阅读使用说明.bat`
+> 镜像服务由第三方提供，可用性会变化，仅作应急。
 
 ---
 
